@@ -63,7 +63,10 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
         const productName = (button.dataset.productName);
         const productImage = (button.dataset.image);
 
-        console.log(productName);
-        console.log(productImage);
+        cart.push({
+            name: productName,
+            image: productImage
+        })
+
     });
 })
