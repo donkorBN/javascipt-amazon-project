@@ -25,6 +25,14 @@ const products = [
             count: 56
         },
         priceCents: 799,
+    },{
+        name: '2 Slot Toaster - Black',
+        image: 'images/products/black-2-slot-toaster.jpg',
+        rating: {
+            stars: 5,
+            count: 2197
+        },
+        priceCents: 2199,
     }
 ]
 let productsHTML = ''
