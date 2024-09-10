@@ -52,7 +52,6 @@ products.forEach(product => {
     `;
 })
 
-let cartQuantity = '';
 
 document.querySelector('.js-products-grid').innerHTML = productsHTML;
 
