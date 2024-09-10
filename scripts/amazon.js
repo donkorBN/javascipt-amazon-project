@@ -67,6 +67,6 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
             productName: productName,
             quantity: 1,
         })
-
+    console.log(cart)
     });
 })
