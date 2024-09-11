@@ -1,6 +1,7 @@
 const cart = [
     {
-    item: '',
-    quantity: ''
+    item: "",
+    quantity: ""
     }
 ]
+

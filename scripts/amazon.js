@@ -63,10 +63,23 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
         const productName = (button.dataset.productName);
         const productImage = (button.dataset.image);
 
-        cart.push({
-            productName: productName,
-            quantity: 1,
+        let matchingItem;
+
+        cart.forEach(item => {
+            if (productName === item.productName) {
+                matchingItem = item;
+            }
         })
+
+        if (matchingItem) {
+            matchingItem.quantity +=1
+        } else {
+            cart.push({
+                productName: productName,
+                quantity: 1
+
+            })
+        }
     console.log(cart)
     });
 })
