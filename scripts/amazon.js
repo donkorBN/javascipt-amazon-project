@@ -79,6 +79,6 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
 
             })
         }
-    g
+    console.log(cart)
     });
 })
