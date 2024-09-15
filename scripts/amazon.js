@@ -80,5 +80,6 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
             })
         }
     console.log(cart)
+    console.log(matchingItem);
     });
 })
