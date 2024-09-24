@@ -7,3 +7,7 @@ arr.map((item) => {
 arr.filter((item) => {
     console.log(item + " "+ "ate")
 })
+
+arr.reduce((acc, item) => {
+    console.log(item + " "+ "ate")
+})
