@@ -14,4 +14,3 @@ arr.reduce((acc, item) => {
 }, acc_value)
 
 console.log(acc_value)
-console.log("close")
